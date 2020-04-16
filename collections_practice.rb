@@ -34,6 +34,7 @@ def kesha_maker(strings)
   new_array = []
   strings.each do |string|
     array << "#{sting.chars}"
+    end
   end
   new_array.length
 end
