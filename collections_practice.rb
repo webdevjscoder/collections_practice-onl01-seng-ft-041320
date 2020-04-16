@@ -30,10 +30,11 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(strings)
-  array = strings.to_a
-  new_array = []
-  array.each do |string|
-    new_array << "#{sting}"
+  array = []
+  array.each do |word|
+    word_array = word.split ""
+    word_array[2] = "$"
+    kesha << word_array.join
   end
-  new_array
+  kesha
 end
