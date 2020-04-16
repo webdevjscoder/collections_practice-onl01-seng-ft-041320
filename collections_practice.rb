@@ -21,7 +21,8 @@ def sort_array_char_count(string)
 end
 
 def swap_elements(array)
-  
+  array[1] = array[2]
+  array
 end
 
 def swap_elements_from_to(array, index, destination_index)
