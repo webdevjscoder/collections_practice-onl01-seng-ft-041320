@@ -33,6 +33,6 @@ def kesha_maker(strings)
   array = strings.to_a
   new_array = []
   strings.each do |string|
-    array << "#{sting.split('')}"
+    array << "#{sting.char}"
   end
 end
