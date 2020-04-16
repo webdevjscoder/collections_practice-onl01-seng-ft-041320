@@ -29,6 +29,10 @@ def reverse_array(numbers)
   numbers.reverse
 end
 
-def kesha_maker
-  
+def kesha_maker(strings)
+  array = strings.to_a
+  new_array = []
+  strings.each do |string|
+    array << "#{sting.split('')}"
+  end
 end
