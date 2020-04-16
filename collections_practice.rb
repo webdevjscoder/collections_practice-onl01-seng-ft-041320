@@ -12,6 +12,7 @@ end
 
 def sort_array_char_count(string)
   string.sort do |a, b|
-    
+    if a.length < b.length
+      
   end
 end
