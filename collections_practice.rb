@@ -31,10 +31,10 @@ end
 
 def kesha_maker(strings)
   array = []
-  array.each do |word|
-    word_array = word.split ""
-    word_array[2] = "$"
-    kesha << word_array.join
+  strings.each do |word|
+    word_array = word.split('')
+    word_array[2] = '$'
+    array << word_array.join
   end
   kesha
 end
